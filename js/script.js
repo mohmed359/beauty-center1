@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Replace broken images with a local SVG placeholder
+
     const localPlaceholder = 'images/placeholder.svg';
 
     document.querySelectorAll('img').forEach(img => {

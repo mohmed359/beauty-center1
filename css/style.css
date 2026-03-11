@@ -79,6 +79,7 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 100%;
 }
 
 .text-center {
@@ -868,5 +869,80 @@ footer {
 
     section {
         padding: 60px 0;
+    }
+
+    .section-title h2 {
+        font-size: 32px;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .testimonial-item p {
+        font-size: 16px;
+    }
+
+    .testimonial-item i {
+        font-size: 30px;
+    }
+
+    .services-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container {
+        gap: 30px;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info-item i {
+        margin-bottom: 10px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-col h3 {
+        margin-top: 20px;
+    }
+
+    .footer-socials {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title h2 {
+        font-size: 26px;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li a {
+        font-size: 16px;
     }
 }

@@ -24,10 +24,47 @@
             color: var(--white);
             text-align: center;
             margin-bottom: 50px;
+            padding: 0 20px;
         }
         
         .page-header h1 {
             font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .page-header p {
+            font-size: 18px;
+        }
+
+        @media (max-width: 992px) {
+            .page-header {
+                height: 35vh;
+            }
+            .page-header h1 {
+                font-size: 42px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .page-header {
+                height: 30vh;
+                margin-bottom: 30px;
+            }
+            .page-header h1 {
+                font-size: 32px;
+            }
+            .page-header p {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .page-header h1 {
+                font-size: 28px;
+            }
+            .page-header p {
+                font-size: 14px;
+            }
         }
     </style>
 </head>
